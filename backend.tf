@@ -13,7 +13,7 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "sseconfig" {
 }
 terraform {
   backend s3{
-    bucket = "terra-cloud-jenkins-ashok"
+    bucket = "avpaws444"
     key = "remote.tfstate"
     region = "us-east-1"
   }

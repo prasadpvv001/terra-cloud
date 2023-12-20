@@ -1,3 +1,3 @@
 module "compute" {
-  source        = "./ec2"
+  source        = "./services"
 }
